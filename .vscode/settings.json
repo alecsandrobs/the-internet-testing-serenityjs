@@ -1,0 +1,15 @@
+{
+  "cucumberautocomplete.steps": ["features/step_definitions/**/*.ts"],
+  "cucumberautocomplete.syncfeatures": "features/specs/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.formatOnSave": false,
+  "eslint.alwaysShowStatus": true,
+  "window.zoomLevel": 1,
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  }
+}
